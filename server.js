@@ -1,14 +1,17 @@
 const express = require('express');
 
-//change the port but idk what yet
-const PORT = process.env.port || 3001;
-
 const app = express();
 
-app.use(express.json());
+//change the port but idk what yet
+const PORT = process.env.port || 80;
+
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use(express.static("./public/"));
 
+// app.get('/routes/routeIndex');
+require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
 //change the url
 app.listen(PORT, () => 
