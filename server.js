@@ -1,8 +1,7 @@
-//
 const express = require('express');
 
 //change the port but idk what yet
-const PORT = 3001;
+const PORT = process.env.port || 3001;
 
 const app = express();
 
