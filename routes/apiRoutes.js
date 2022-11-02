@@ -41,7 +41,6 @@ module.exports = function (app) {
             deletedId++
         }
 
-
         fs.writeFileSync("./db/db.json", JSON.stringify(oldNotes));
         res.json(oldNotes);
 

@@ -19,8 +19,3 @@ console.log(`App is listneing at http://localhost:${PORT}`)
 );
 
 
-//issues for tutor: 
-//information is not saving to the db.json file
-//when you click on the note it does not show on the left side 
-//correct port???
-//delete button
