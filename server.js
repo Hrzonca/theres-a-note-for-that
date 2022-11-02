@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("./public/"));
 
-// app.get('/routes/routeIndex');
+//calling the routes with express
 require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app);
 
@@ -17,3 +17,10 @@ require('./routes/htmlRoutes')(app);
 app.listen(PORT, () => 
 console.log(`App is listneing at http://localhost:${PORT}`)
 );
+
+
+//issues for tutor: 
+//information is not saving to the db.json file
+//when you click on the note it does not show on the left side 
+//correct port???
+//delete button
