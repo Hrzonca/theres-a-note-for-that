@@ -27,4 +27,11 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
+## Link 
+![live link to appication:](https://theres-a-note-for-that.herokuapp.com/)
+
+## Screenshots
+![homepage](./deploy%20images/Screen%20Shot%202022-11-02%20at%202.44.01%20PM.png)
+![note page](./deploy%20images/Screen%20Shot%202022-11-02%20at%202.46.24%20PM.png)
+
 
