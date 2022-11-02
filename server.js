@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 //change the port but idk what yet
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
